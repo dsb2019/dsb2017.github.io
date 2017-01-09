@@ -1,0 +1,8 @@
+title: Workshop "Data Structures in Bioinformatics" 2017
+description: CWI Amsterdam, The Netherlands, February 21-22, 2017
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
