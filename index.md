@@ -4,6 +4,8 @@ The workshop DSB "Data Structures in Bioinformatics" (DSB) is an incubator of id
 
 | Name | Affiliation |
 | ---- | ----------- |
+| Mai Alzamel | King's College London |
+| Lorraine Ayad | King's College London |
 | Jasmijn Baaijens | CWI Amsterdam |
 | Rayan Chikhi | University of Lille |
 | Johannes Fischer | TU Dortmund |
@@ -14,7 +16,6 @@ The workshop DSB "Data Structures in Bioinformatics" (DSB) is an incubator of id
 | Jasper Linthorst | TU Delft |
 | Raquel Manzano | Wageningen University |
 | Tom Mokveld | TU Delft |
-| Solon Pissis | King's college London |
 | Simon Puglisi | University of Helsinki |
 | Sven Rahmann | University of Duisburg-Essen |
 | Eric Rivals | University of Montpellier |
