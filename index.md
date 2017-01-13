@@ -6,6 +6,13 @@ The workshop DSB "Data Structures in Bioinformatics" (DSB) is an incubator of id
 * Feb 21 2017: workshop day 1
 * Feb 22 2017: workshop day 2
 
+### Venue
+
+The workshop will take place at [CWI Amsterdam](https://cwi.nl) ([map](https://www.google.nl/maps/place/Centrum+Wiskunde+%26+Informatica/@52.3564651,4.9501773,17z/data=!3m1!4b1!4m5!3m4!1s0x47c60943849abc4f:0x7c49bc3f6dd03051!8m2!3d52.3564651!4d4.952366?hl=en)). There is a direct train connection from Amsterdam Central Station (5 min) and Schiphol airport (30-50 min).
+We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [The Manor](https://www.hampshirehotelmanoramsterdam.com/en) (2 min train ride).
+
+---
+
 ### Participants
 
 | Name | Affiliation |
@@ -36,6 +43,8 @@ The workshop DSB "Data Structures in Bioinformatics" (DSB) is an incubator of id
 | Jasmijn Baaijens | CWI Amsterdam, the Netherlands |
 | Johannes Köster | CWI Amsterdam, the Netherlands |
 | Alexander Schönhuth | CWI Amsterdam, the Netherlands |
+
+---
 
 ### Schedule
 
@@ -137,8 +146,3 @@ A fundamental assumption of all widely-used multiple sequence alignment techniqu
 A solution for these inconsistencies would be to identify a suitable rotation (cyclic shift) for each sequence; these refined sequences may in turn lead to improved multiple sequence alignments using the preferred multiple sequence alignment program. MARS is a new heuristic method for improving Multiple circular sequence Alignment using Refined Sequences. The program computes the rotations (cyclic shifts) required to best align a set of input sequences, where the output can then be input into any multiple sequence alignment program.
 
 Experimental results, using real and synthetic data are presented, showing that MARS improves the alignments, with respect to standard genetic measures and the inferred maximum-likelihood-based phylogenies, and outperforms state-of-the-art methods both in terms of accuracy and efficiency.
-
-### Venue
-
-The workshop will take place at [CWI Amsterdam](https://cwi.nl) ([map](https://www.google.nl/maps/place/Centrum+Wiskunde+%26+Informatica/@52.3564651,4.9501773,17z/data=!3m1!4b1!4m5!3m4!1s0x47c60943849abc4f:0x7c49bc3f6dd03051!8m2!3d52.3564651!4d4.952366?hl=en)). There is a direct train connection from Amsterdam Central Station (5 min) and Schiphol airport (30-50 min).
-We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [The Manor](https://www.hampshirehotelmanoramsterdam.com/en) (2 min train ride).
