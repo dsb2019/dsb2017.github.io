@@ -44,12 +44,9 @@ TBA
 ### Talks (preliminary)
 
 #### Palindromic Decompositions with Gaps and Errors
-##### Speaker
-Mai Alzamel
-##### Joint work with
-Michał Adamczyk, Panagiotis Charalampopoulos, Costas Iliopoulos,
+**Mai Alzamel**, Michał Adamczyk, Panagiotis Charalampopoulos, Costas Iliopoulos,
 and Jakub Radoszewski.
-##### Abstract
+
 Identifying palindromes in sequences has been an interesting line of research
 after the discovery of the relation of palindromes in the DNA sequence with the
 HIV virus. Efficient algorithms for the factorisation of sequences into
@@ -64,18 +61,12 @@ n in maximal palindromes with at most 𝛿 errors each, under the edit or Hammin
 distance, and g allowed gaps.
 
 #### New Results on Wavelet Tree/Matrix Construction
-##### Speaker
-Johannes Fischer
-##### Abstract
-TBA
+**Johannes Fischer**
 
 #### FM-index of Alignment with Gaps
-##### Speaker
-Thierry Lecroq
-##### Joint work with
-Joong Chae Na, Hyunjoon Kim, Seunghwan Min,
-Heejin Park, Martine LÃ©onard, Laurent Mouchard and Kunsoo Park
-##### Abstract
+**Thierry Lecroq**, Joong Chae Na, Hyunjoon Kim, Seunghwan Min,
+Heejin Park, Martine Leonard, Laurent Mouchard and Kunsoo Park
+
 Recently a compressed index for similar strings, called the
 FM-index of alignment (FMA), has been proposed with the functionalities
 of pattern search and random access. The FMA is quite efficient in
@@ -94,19 +85,15 @@ sequences from the 1000 Genomes Project. The index size of our index is
 smaller than those of other indexes.
 
 #### Relative Data Structures
-##### Speaker
-Jouni Siren
-##### Abstract
+**Jouni Siren**
+
 Relative data compression encodes the target dataset relative to a similar reference dataset. Given the reference and the target compressed relative to the reference, we can then recover the target dataset. With data structures, we may want to go further than that. Given a data structure for the reference and a relative data structure for the target, we may want to simulate the target data structure efficiently.
 
 In this talk, I will present relative FM-indexes and suffix trees for assembled genomes. I will discuss the techniques used in the data structures and show benchmarks against ordinary FM-indexes and compressed suffix trees.
 
 #### From discrete to continuous - new algorithms for fused LASSO on graphs
-##### Speaker
-Sven Rahmann
-##### Joint work with
-Elias Kuthe
-##### Abstract
+**Sven Rahmann**, Elias Kuthe
+
 Frequently, solving a discrete optimization problem is much harder than
 the corresponding continuous problem (e.g., general integer linear
 programming vs. (continuous) linear programming).
@@ -143,9 +130,8 @@ The efficiency of the method, however, crucially depends on the graph
 structure.
 
 #### MARS: improving multiple circular sequence alignment using refined sequences.
-##### Speaker
-Lorraine Ayad
-##### Abstract
+**Lorraine Ayad**
+
 A fundamental assumption of all widely-used multiple sequence alignment techniques is that the left- and right-most positions of the input sequences are relevant to the alignment. However, the position where a sequence starts or ends can be totally arbitrary. This is relevant, for instance, in the process of multiple sequence alignment of mitochondrial DNA, viroid, viral or other genomes, which have a circular molecular structure.
 
 A solution for these inconsistencies would be to identify a suitable rotation (cyclic shift) for each sequence; these refined sequences may in turn lead to improved multiple sequence alignments using the preferred multiple sequence alignment program. MARS is a new heuristic method for improving Multiple circular sequence Alignment using Refined Sequences. The program computes the rotations (cyclic shifts) required to best align a set of input sequences, where the output can then be input into any multiple sequence alignment program.
