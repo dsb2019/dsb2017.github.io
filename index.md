@@ -24,6 +24,7 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 | Johannes Fischer | TU Dortmund |
 | Guillaume Holley | Bielefeld University |
 | Zamin Iqbal | Oxford University / EMBL-EBI |
+| Leandro Ishi | INRIA |
 | Johannes Köster | CWI Amsterdam |
 | Thierry Lecroq | University of Rouen |
 | Jasper Linthorst | TU Delft |
@@ -32,6 +33,7 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 | Simon Puglisi | University of Helsinki |
 | Sven Rahmann | University of Duisburg-Essen |
 | Eric Rivals | University of Montpellier |
+| Kamil Salikhov | Université Paris-Est Marne-la-Vallée |
 | Alexander Schönhuth | CWI Amsterdam |
 | Jouni Sirén | Wellcome Trust Sanger Institute |
 | Jens Stoye | Bielefeld University |
@@ -146,3 +148,18 @@ A fundamental assumption of all widely-used multiple sequence alignment techniqu
 A solution for these inconsistencies would be to identify a suitable rotation (cyclic shift) for each sequence; these refined sequences may in turn lead to improved multiple sequence alignments using the preferred multiple sequence alignment program. MARS is a new heuristic method for improving Multiple circular sequence Alignment using Refined Sequences. The program computes the rotations (cyclic shifts) required to best align a set of input sequences, where the output can then be input into any multiple sequence alignment program.
 
 Experimental results, using real and synthetic data are presented, showing that MARS improves the alignments, with respect to standard genetic measures and the inferred maximum-likelihood-based phylogenies, and outperforms state-of-the-art methods both in terms of accuracy and efficiency.
+
+#### Efficient construction of compacted de Bruijn graphs
+**Rayan Chikhi**
+
+The de Bruijn graph is a widely used data structure in
+assembly algorithms. Compacting the graph is an important data reduction
+step where long simple paths are compacted into single vertices.
+Construction of the compacted graph has recently become the bottleneck
+in assembly pipelines, and improving its running time and memory usage
+is an important problem. In this talk I'll present an algorithm and a
+tool BCALM 2 for the compaction of de Bruijn graphs. BCALM 2 is a
+parallel algorithm that distributes the input based on a minimizer
+hashing technique, allowing for good balance of memory usage throughout
+its execution. It is at least an order of magnitude more efficient than
+other available methods. Source code: https://github.com/GATB/bcalm
