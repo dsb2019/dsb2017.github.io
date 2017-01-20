@@ -20,22 +20,23 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 | Mai Alzamel | King's College London |
 | Lorraine Ayad | King's College London |
 | Jasmijn Baaijens | CWI Amsterdam |
+| Rodrigo Canovas | Montpellier |
 | Rayan Chikhi | University of Lille |
 | Johannes Fischer | TU Dortmund |
 | Guillaume Holley | Bielefeld University |
-| Zamin Iqbal | Oxford University / EMBL-EBI |
 | Leandro Ishi | INRIA |
 | Johannes Köster | CWI Amsterdam |
 | Thierry Lecroq | University of Rouen |
 | Jasper Linthorst | TU Delft |
-| Raquel Manzano | Wageningen University |
 | Tom Mokveld | TU Delft |
 | Simon Puglisi | University of Helsinki |
 | Sven Rahmann | University of Duisburg-Essen |
 | Eric Rivals | University of Montpellier |
 | Kamil Salikhov | Université Paris-Est Marne-la-Vallée |
 | Alexander Schönhuth | CWI Amsterdam |
+| Siavash Sheikhizadeh | Wageningen University |
 | Jouni Sirén | Wellcome Trust Sanger Institute |
+| Sandra Smit | Wageningen University |
 | Jens Stoye | Bielefeld University |
 
 ### Organizing Committee
@@ -141,7 +142,7 @@ The efficiency of the method, however, crucially depends on the graph
 structure.
 
 #### MARS: improving multiple circular sequence alignment using refined sequences.
-**Lorraine Ayad**
+**Lorraine Ayad**, Solon Pissis
 
 A fundamental assumption of all widely-used multiple sequence alignment techniques is that the left- and right-most positions of the input sequences are relevant to the alignment. However, the position where a sequence starts or ends can be totally arbitrary. This is relevant, for instance, in the process of multiple sequence alignment of mitochondrial DNA, viroid, viral or other genomes, which have a circular molecular structure.
 
@@ -163,3 +164,35 @@ parallel algorithm that distributes the input based on a minimizer
 hashing technique, allowing for good balance of memory usage throughout
 its execution. It is at least an order of magnitude more efficient than
 other available methods. Source code: https://github.com/GATB/bcalm
+
+#### ProPhyle – a memory efficient BWT-based metagenomic classifier
+Karel Brinda, **Kamil Salikhov**, Simone Pignotti
+
+Metagenomics is a powerful approach to study genetic content of environmental samples
+that has been strongly promoted by NGS technologies. A way to improve the
+accuracy of metagenomic classification is to match the metagenome against a largest
+possible set of known genomic sequences. With many thousands of completed microbial
+genomes available today, modern metagenomic projects match their samples
+against genomic databases of tens of billions of bp.
+To cope with increasingly large metagenomic projects, alignment-free methods
+have recently come into use. The most popular tool - Kraken - performs
+metagenomic classification of NGS reads based on the analysis of shared k-mers
+between an input read and each genome from a pre-compiled database. Kraken
+provides an extremely rapid read classification, but its index suffers from two major
+limitations. First, Kraken’s enormous memory consumption, due to a large hash
+table, does not allow one to perform classification other than on high-performance
+clusters. Second, each k-mer K in the index is represented by the lowest common
+ancestor of all nodes that contains K, which can result in an inaccurate classification.
+We present ProPhyle, a metagenomic classifier based on BWT-index. ProPhyle
+uses a classification algorithm similar to Kraken, but with an indexing strategy
+based on a bottom-up propagation of k-mers in the tree, assembling contigs at
+each node and matching using a standard full-text search. Matching can be done
+using two different approaches: “restarted search”, when each k-mer is processed
+independently, and “rolling window”, which utilizes the fact that two consecutive
+k-mers in a read have a suffix-prefix overlap of length k - 1. The latter approach,
+which is based on kLCP data structure, allows to decrease the assignment time
+so that it can be comparable to the Kraken’s one. The obtained index occupies
+only a fraction of RAM compared to Kraken – 13 GB instead of 120 GB for index
+construction and 14 GB instead of 75 GB for index querying. The resulting index is
+also more expressive as it can, for every queried k-mer, retrieve a list of all genomes
+in which the k-mer occurs.
