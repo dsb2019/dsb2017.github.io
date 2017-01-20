@@ -196,3 +196,15 @@ only a fraction of RAM compared to Kraken – 13 GB instead of 120 GB for index
 construction and 14 GB instead of 75 GB for index querying. The resulting index is
 also more expressive as it can, for every queried k-mer, retrieve a list of all genomes
 in which the k-mer occurs.
+
+
+#### Practical algorithms for the creation and use of multi-genome reference graphs
+**Jasper Linthorst**, **Tom Mokveld**
+
+The application of multi-reference representations holds a great promise
+for improving the quality of genetic variant detection. We present a
+practical algorithm for the construction of multi-genome reference graphs.
+We introduce the concept of recursive exact matching and show how this can
+be applied to graph-based multi-genome representations. Subsequently we
+outline an algorithm that enables the alignment of reads through such a
+graph, by indexing all haplotype informed paths.
