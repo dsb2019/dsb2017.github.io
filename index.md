@@ -17,12 +17,16 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 
 | Name | Affiliation |
 | ---- | ----------- |
+| Mohamed Abouelhoda | KACST/KFSHRC, Saudi Arabia |
 | Mai Alzamel | King's College London |
 | Lorraine Ayad | King's College London |
 | Jasmijn Baaijens | CWI Amsterdam |
 | Rodrigo Canovas | Montpellier |
 | Rayan Chikhi | University of Lille |
+| Anthony Cox | Illumina UK |
+| Daniel Dörr | Bielefeld University |
 | Johannes Fischer | TU Dortmund |
+| Ehsan Haghshenas | Simon Fraser University |
 | Guillaume Holley | Bielefeld University |
 | Leandro Ishi | INRIA |
 | Johannes Köster | CWI Amsterdam |
@@ -34,10 +38,12 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 | Eric Rivals | University of Montpellier |
 | Kamil Salikhov | Université Paris-Est Marne-la-Vallée |
 | Alexander Schönhuth | CWI Amsterdam |
+| Tizian Schulz | Bielefeld University |
 | Siavash Sheikhizadeh | Wageningen University |
 | Jouni Sirén | Wellcome Trust Sanger Institute |
 | Sandra Smit | Wageningen University |
 | Jens Stoye | Bielefeld University |
+| Tina Zekic | Bielefeld University |
 
 ### Organizing Committee
 
@@ -208,3 +214,28 @@ We introduce the concept of recursive exact matching and show how this can
 be applied to graph-based multi-genome representations. Subsequently we
 outline an algorithm that enables the alignment of reads through such a
 graph, by indexing all haplotype informed paths.
+
+#### Big Data Challenges for Clinical Bioinformatics
+**Mohamed Abouelhoda**
+
+The recent advancement of Next Generation Sequencing technologies in terms of cost, throughput, and accuracy has already changed the clinical practice largely for diagnosis and growingly for treatment. However, the analysis requirements regarding quality, accuracy, speed, and integrated knowledge sources are higher, compared to samples from other organisms. Such sophistications along with the sheer volume of data shape a real big data problem with a number of challenges.
+In this talk, we will address a number of computational challenges for processing thousands of samples for large genome projects and for clinical use. We will discuss some criteria for selecting the data management and analysis methods, considering the recent advances in computational infrastructure and storage systems that can help overcoming the Big Data challenge. The discussion will be based on best practices in the Saudi Human Genome Program, which targets to sequence 100,000 genomes over a period of five years. We will also briefly shed light on the still coming challenges with new sequencing techniques and applications in the clinic.
+
+#### Superstrings, cycles covers, and multiplicities.
+**Eric Rivals**, Bastien Cazaux
+
+In genome or transcriptome assembly, dealing with repeated sequence
+remains a major bottleneck. The number of repeated elements in a genome
+varies greatly between species, but both vertebrates and plants often
+exhibit a repetitive fraction of their genome that goes beyond 40%.
+Reads located in different copies of a repeated region tend to collapse
+in a single region, the coverage of which provides an estimation of the
+number of copies. It is thus crucial to develop algorithms able to
+reconstruct a target sequence and at the same time to satisfy the
+constraints imposed by the information on the /multiplicity/ of each
+input word, where the multiplicity means the desired number of copies
+for each "read". Here, we will describe an algorithm for computing a
+cycle cover of a set of input words with multiplicities. This algorithm
+uses a specific graph to account for these multiplicities and remains
+linear in complexity. It thus provides a way to compute approximate
+shortest superstring with multiplicities.
