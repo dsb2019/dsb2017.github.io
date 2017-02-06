@@ -21,7 +21,6 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 | Mai Alzamel | King's College London |
 | Lorraine Ayad | King's College London |
 | Jasmijn Baaijens | CWI Amsterdam |
-| Rodrigo Canovas | Montpellier |
 | Rayan Chikhi | University of Lille |
 | Anthony Cox | Illumina UK |
 | Daniel Dörr | Bielefeld University |
@@ -55,9 +54,50 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 
 ---
 
-### Schedule
+### Preliminary Schedule
 
-TBA
+#### Monday, Feb 20 2017
+
+* **7pm:** Opening dinner at restaurant [Nessun Dorma](http://www.osterianessundorma.nl/)
+
+#### Tuesday, Feb 21 2017
+
+**9am-9:15am:** Arrival at CWI
+
+| Start | Speaker | |
+| ----- | ------- | ----- |
+| 9:15am | Johannes Fischer | New Results on Wavelet Tree/Matrix Construction |
+| 10am | Thierry Lecroq | FM-index of Alignment with Gaps |
+| 10:45am | | Coffee Break |
+| 11:15am | Jouni Siren | Relative Data Structures |
+| 12am | Sven Rahmann | From discrete to continuous - new algorithms for fused LASSO on graphs |
+| 12:45am | | Lunch |
+| | Siavash Sheikhizadeh | PanTools: representation, storage and exploration of pan-genomic data |
+| | Anthony Cox | Data structures for population sequencing projects |
+| | | Coffee Break |
+| | Jasper Linthorst, Tom Mokveld | Practical algorithms for the creation and use of multi-genome reference graphs |
+| | Mohamed Abouelhoda | Big Data Challenges for Clinical Bioinformatics |
+
+**7pm:** Dinner at restaurant [Tomaz](http://tomaz.nl/)
+
+#### Wednesday, Feb 22 2017
+
+| Start | Speaker | |
+| ----- | ------- | ----- |
+| | Eric Rivals | Superstrings, cycles covers, and multiplicities |
+| | Rayan Chikhi | Efficient construction of compacted de Bruijn graphs |
+| | | Coffee Break |
+| | Jasmijn Baaijens | Haplotype-resolved genome assembly using overlap graphs |
+| | Mai Alzamel | Palindromic Decompositions with Gaps and Errors |
+| | | Lunch |
+| | Lorraine Ayad | MARS: improving multiple circular sequence alignment using refined sequences |
+| | Kamil Salikhov | ProPhyle – a memory efficient BWT-based metagenomic classifier |
+
+
+
+
+
+
 
 ### Talks (preliminary)
 
@@ -239,3 +279,16 @@ cycle cover of a set of input words with multiplicities. This algorithm
 uses a specific graph to account for these multiplicities and remains
 linear in complexity. It thus provides a way to compute approximate
 shortest superstring with multiplicities.
+
+#### Data structures for population sequencing projects
+**Anthony Cox**
+
+
+
+#### PanTools: representation, storage and exploration of pan-genomic data
+**Siavash Sheikhizadeh**, M. Eric Schranz, Mehmet Akdel, Dick de Ridder and Sandra Smit
+
+Thanks to the impressive advances in sequencing technologies, the availability of eukaryotic genome assemblies is growing rapidly. The fact that many species are now represented by multiple (reference) genomes necessitates a transition from single-genome to pan-genome analyses. We define the pan-genome as a comprehensive representation of multiple genomes, facilitating comparative analyses at the nucleotide, gene, and function level. Current pan-genomic approaches do not thoroughly address scalability, functionality, and usability issues. We propose a graph structure consisting of a hierarchy of nucleotide, annotation, and function layers, which is stored in a Neo4j graph database making it scalable to large datasets. We have developed an online algorithm to construct a generalized De Bruijn graph as the nucleotide layer of the pan-genome. In addition, our toolbox PanTools provides useful functionalities for adding new genomes and annotations, retrieving sequence of genes and genomic regions, reconstructing the constituent genomes, and inferring orthology relationships in the pan-genome. Efficiency and accuracy of PanTools have been validated on various eukaryotic data sets.
+
+#### Haplotype-resolved genome assembly using overlap graphs
+**Jasmijn Baaijens**
