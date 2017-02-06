@@ -58,44 +58,43 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 
 #### Monday, Feb 20 2017
 
-* **7pm:** Opening dinner at restaurant [Nessun Dorma](http://www.osterianessundorma.nl/)
+* **19:00:** Opening dinner at restaurant [Nessun Dorma](http://www.osterianessundorma.nl/)
 
 #### Tuesday, Feb 21 2017
 
-**9am-9:15am:** Arrival at CWI
+**9:00-9:15:** Arrival at CWI
 
 | Start | Speaker | |
 | ----- | ------- | ----- |
-| 9:15am | Johannes Fischer | New Results on Wavelet Tree/Matrix Construction |
-| 10am | Thierry Lecroq | FM-index of Alignment with Gaps |
-| 10:45am | | Coffee Break |
-| 11:15am | Jouni Siren | Relative Data Structures |
-| 12am | Sven Rahmann | From discrete to continuous - new algorithms for fused LASSO on graphs |
-| 12:45am | | Lunch |
-| | Siavash Sheikhizadeh | PanTools: representation, storage and exploration of pan-genomic data |
-| | Anthony Cox | Data structures for population sequencing projects |
-| | | Coffee Break |
-| | Jasper Linthorst, Tom Mokveld | Practical algorithms for the creation and use of multi-genome reference graphs |
-| | Mohamed Abouelhoda | Big Data Challenges for Clinical Bioinformatics |
+|  | Johannes Fischer | New Results on Wavelet Tree/Matrix Construction |
+|  | Thierry Lecroq | FM-index of Alignment with Gaps |
+|  | | Coffee Break |
+|  | Jouni Siren | Relative Data Structures |
+|  | Mohamed Abouelhoda | Big Data Challenges for Clinical Bioinformatics |
+|  | | Lunch |
+|  | Eric Rivals | Superstrings, cycles covers, and multiplicities |
+|  | Jasmijn Baaijens | Haplotype-resolved genome assembly using overlap graphs |
+|  | | Coffee Break |
+|  | Rayan Chikhi | Efficient construction of compacted de Bruijn graphs |
+|  | | Open Discussion |
 
-**7pm:** Dinner at restaurant [Tomaz](http://tomaz.nl/)
+**19:00:** Dinner at restaurant [Tomaz](http://tomaz.nl/)
 
 #### Wednesday, Feb 22 2017
 
 | Start | Speaker | |
 | ----- | ------- | ----- |
-| | Eric Rivals | Superstrings, cycles covers, and multiplicities |
-| | Rayan Chikhi | Efficient construction of compacted de Bruijn graphs |
-| | | Coffee Break |
-| | Jasmijn Baaijens | Haplotype-resolved genome assembly using overlap graphs |
-| | Mai Alzamel | Palindromic Decompositions with Gaps and Errors |
-| | | Lunch |
-| | Lorraine Ayad | MARS: improving multiple circular sequence alignment using refined sequences |
+|  | Sven Rahmann | From discrete to continuous - new algorithms for fused LASSO on graphs |
+|  | Siavash Sheikhizadeh | PanTools: representation, storage and exploration of pan-genomic data |
+|  | | Coffee Break |
+|  | Anthony Cox | Data structures for population sequencing projects |
+|  | Jasper Linthorst, Tom Mokveld | Practical algorithms for the creation and use of multi-genome reference graphs |
+|  | | Lunch |
 | | Kamil Salikhov | ProPhyle – a memory efficient BWT-based metagenomic classifier |
-
-
-
-
+|  | Mai Alzamel | Palindromic Decompositions with Gaps and Errors |
+| | Coffee Break |
+|  | Lorraine Ayad | MARS: improving multiple circular sequence alignment using refined sequences |
+| | | Open Discussion |
 
 
 
