@@ -21,9 +21,10 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 | Mai Alzamel | King's College London |
 | Lorraine Ayad | King's College London |
 | Jasmijn Baaijens | CWI Amsterdam |
-| Rodrigo Canovas | Montpellier |
+| Paola Bonizzoni | University of Milano-Bicocca |
 | Rayan Chikhi | University of Lille |
 | Anthony Cox | Illumina UK |
+| Luca Denti | University of Milano-Bicocca |
 | Daniel Dörr | Bielefeld University |
 | Johannes Fischer | TU Dortmund |
 | Ehsan Haghshenas | Simon Fraser University |
@@ -33,6 +34,7 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 | Thierry Lecroq | University of Rouen |
 | Jasper Linthorst | TU Delft |
 | Tom Mokveld | TU Delft |
+| Marco Previtali | University of Milano-Bicocca |
 | Simon Puglisi | University of Helsinki |
 | Sven Rahmann | University of Duisburg-Essen |
 | Eric Rivals | University of Montpellier |
@@ -55,9 +57,50 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 
 ---
 
-### Schedule
+### Preliminary Schedule
 
-TBA
+#### Monday, Feb 20 2017
+
+* **19:00:** Opening dinner at restaurant [Nessun Dorma](http://www.osterianessundorma.nl/)
+
+#### Tuesday, Feb 21 2017
+
+**9:00-9:10:** Arrival at CWI
+
+| Start | Speaker | |
+| ----- | ------- | ----- |
+| 9:10 | Johannes Fischer | New Results on Wavelet Tree/Matrix Construction |
+| 9:55 | Thierry Lecroq | FM-index of Alignment with Gaps |
+| 10:40 | | Coffee Break |
+| 11:00 | Jouni Siren | Relative Data Structures |
+| 11:45 | Mohamed Abouelhoda | Big Data Challenges for Clinical Bioinformatics |
+| 12:30 | | Lunch |
+| 14:00 | Eric Rivals | Superstrings, cycles covers, and multiplicities |
+| 14:45 | Jasmijn Baaijens | Haplotype-resolved genome assembly using overlap graphs |
+| 15:30 | | Coffee Break |
+| 16:00 | Rayan Chikhi | Efficient construction of compacted de Bruijn graphs |
+| 16:45 | Ehsan Haghshenas | T.B.A. |
+| 17:30 | | Open Discussion |
+
+**19:00:** Dinner at restaurant [Tomaz](http://tomaz.nl/)
+
+#### Wednesday, Feb 22 2017
+
+| Start | Speaker | |
+| ----- | ------- | ----- |
+| 9:00 | Sven Rahmann | From discrete to continuous - new algorithms for fused LASSO on graphs |
+| 9:45 | Siavash Sheikhizadeh | PanTools: representation, storage and exploration of pan-genomic data |
+| 10:30 | | Coffee Break |
+| 11:00 | Anthony Cox | Data structures for population sequencing projects |
+| 11:45 | Jasper Linthorst, Tom Mokveld | Practical algorithms for the creation and use of multi-genome reference graphs |
+| 12:30 | | Lunch |
+| 14:00 | Kamil Salikhov | ProPhyle – a memory efficient BWT-based metagenomic classifier |
+| 14:45 | Mai Alzamel | Palindromic Decompositions with Gaps and Errors |
+| 15:30 | Coffee Break |
+| 16:00 | Lorraine Ayad | MARS: improving multiple circular sequence alignment using refined sequences |
+| 16:45 | | Open Discussion |
+
+
 
 ### Talks (preliminary)
 
@@ -239,3 +282,35 @@ cycle cover of a set of input words with multiplicities. This algorithm
 uses a specific graph to account for these multiplicities and remains
 linear in complexity. It thus provides a way to compute approximate
 shortest superstring with multiplicities.
+
+#### Data structures for population sequencing projects
+**Anthony Cox**
+
+
+
+#### PanTools: representation, storage and exploration of pan-genomic data
+**Siavash Sheikhizadeh**, M. Eric Schranz, Mehmet Akdel, Dick de Ridder and Sandra Smit
+
+Thanks to the impressive advances in sequencing technologies, the availability of eukaryotic genome assemblies is growing rapidly. The fact that many species are now represented by multiple (reference) genomes necessitates a transition from single-genome to pan-genome analyses. We define the pan-genome as a comprehensive representation of multiple genomes, facilitating comparative analyses at the nucleotide, gene, and function level. Current pan-genomic approaches do not thoroughly address scalability, functionality, and usability issues. We propose a graph structure consisting of a hierarchy of nucleotide, annotation, and function layers, which is stored in a Neo4j graph database making it scalable to large datasets. We have developed an online algorithm to construct a generalized De Bruijn graph as the nucleotide layer of the pan-genome. In addition, our toolbox PanTools provides useful functionalities for adding new genomes and annotations, retrieving sequence of genes and genomic regions, reconstructing the constituent genomes, and inferring orthology relationships in the pan-genome. Efficiency and accuracy of PanTools have been validated on various eukaryotic data sets.
+
+#### Haplotype-resolved genome assembly using overlap graphs
+**Jasmijn Baaijens**, Amal Zine El Aabidine, Eric Rivals, Alexander Schönhuth
+
+While most genome assemblers focus on reconstructing a consensus genome, an even
+more challenging task is to find the individual haplotype sequences present in an NGS
+sample. These haplotypes can be of high clinical interest, for example when
+studying a viral infection: such a sample contains multiple, closely related virus
+strains (i.e., a viral quasispecies) which may react differently to a given
+medical treatment. We present SAVAGE, a computational tool for
+reconstructing individual haplotypes from a polyploid, highly diverse sample.
+SAVAGE makes use of the overlap graph assembly paradigm in combination with a
+sound statistical model, so that edges in the graph reflect that two reads
+originate from identical haplotypic sequences, and iteratively extends contigs
+into individual haplotypes. In benchmark experiments on both simulated and real
+data, SAVAGE drastically outperforms generic de novo assemblers as well as the
+only specialized de novo viral quasispecies assembler so far. When using an
+ad-hoc consensus reference, SAVAGE also compares very favorably with the
+state-of-the-art reference-guided viral quasispecies assemblers.
+
+#### T.B.A.
+**Ehsan Haghshenas**
