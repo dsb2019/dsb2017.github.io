@@ -21,8 +21,10 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 | Mai Alzamel | King's College London |
 | Lorraine Ayad | King's College London |
 | Jasmijn Baaijens | CWI Amsterdam |
+| Paola Bonizzoni | University of Milano-Bicocca |
 | Rayan Chikhi | University of Lille |
 | Anthony Cox | Illumina UK |
+| Luca Denti | University of Milano-Bicocca |
 | Daniel Dörr | Bielefeld University |
 | Johannes Fischer | TU Dortmund |
 | Ehsan Haghshenas | Simon Fraser University |
@@ -32,6 +34,7 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 | Thierry Lecroq | University of Rouen |
 | Jasper Linthorst | TU Delft |
 | Tom Mokveld | TU Delft |
+| Marco Previtali | University of Milano-Bicocca |
 | Simon Puglisi | University of Helsinki |
 | Sven Rahmann | University of Duisburg-Essen |
 | Eric Rivals | University of Montpellier |
@@ -76,6 +79,7 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 |  | Jasmijn Baaijens | Haplotype-resolved genome assembly using overlap graphs |
 |  | | Coffee Break |
 |  | Rayan Chikhi | Efficient construction of compacted de Bruijn graphs |
+|  | Ehsan Haghshenas | T.B.A. |
 |  | | Open Discussion |
 
 **19:00:** Dinner at restaurant [Tomaz](http://tomaz.nl/)
@@ -290,4 +294,23 @@ shortest superstring with multiplicities.
 Thanks to the impressive advances in sequencing technologies, the availability of eukaryotic genome assemblies is growing rapidly. The fact that many species are now represented by multiple (reference) genomes necessitates a transition from single-genome to pan-genome analyses. We define the pan-genome as a comprehensive representation of multiple genomes, facilitating comparative analyses at the nucleotide, gene, and function level. Current pan-genomic approaches do not thoroughly address scalability, functionality, and usability issues. We propose a graph structure consisting of a hierarchy of nucleotide, annotation, and function layers, which is stored in a Neo4j graph database making it scalable to large datasets. We have developed an online algorithm to construct a generalized De Bruijn graph as the nucleotide layer of the pan-genome. In addition, our toolbox PanTools provides useful functionalities for adding new genomes and annotations, retrieving sequence of genes and genomic regions, reconstructing the constituent genomes, and inferring orthology relationships in the pan-genome. Efficiency and accuracy of PanTools have been validated on various eukaryotic data sets.
 
 #### Haplotype-resolved genome assembly using overlap graphs
-**Jasmijn Baaijens**
+**Jasmijn Baaijens**, Amal Zine El Aabidine, Eric Rivals, Alexander Schönhuth
+
+While most genome assemblers focus on reconstructing a consensus genome, an even
+more challenging task is to find the individual haplotype sequences present in an NGS
+sample. These haplotypes can be of high clinical interest, for example when
+studying a viral infection: such a sample contains multiple, closely related virus
+strains (i.e., a viral quasispecies) which may react differently to a given
+medical treatment. We present SAVAGE, a computational tool for
+reconstructing individual haplotypes from a polyploid, highly diverse sample.
+SAVAGE makes use of the overlap graph assembly paradigm in combination with a
+sound statistical model, so that edges in the graph reflect that two reads
+originate from identical haplotypic sequences, and iteratively extends contigs
+into individual haplotypes. In benchmark experiments on both simulated and real
+data, SAVAGE drastically outperforms generic de novo assemblers as well as the
+only specialized de novo viral quasispecies assembler so far. When using an
+ad-hoc consensus reference, SAVAGE also compares very favorably with the
+state-of-the-art reference-guided viral quasispecies assemblers.
+
+#### T.B.A.
+**Ehsan Haghshenas**
