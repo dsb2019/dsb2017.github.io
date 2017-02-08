@@ -82,6 +82,8 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 | 16:45 | Ehsan Haghshenas | T.B.A. |
 | 17:30 | | Open Discussion |
 
+*Each talk of 25 minutes is followed by up to twenty minutes of questions/discussion*
+
 **19:00:** Dinner at restaurant [Tomaz](http://tomaz.nl/)
 
 #### Wednesday, Feb 22 2017
@@ -99,6 +101,8 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 | 15:30 | Coffee Break |
 | 16:00 | Lorraine Ayad | MARS: improving multiple circular sequence alignment using refined sequences |
 | 16:45 | | Open Discussion |
+
+*Each talk of 25 minutes is followed by up to twenty minutes of questions/discussion*
 
 
 
