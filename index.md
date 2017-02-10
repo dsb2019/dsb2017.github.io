@@ -69,7 +69,7 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 
 | Start | Speaker | |
 | ----- | ------- | ----- |
-| 9:10 | Johannes Fischer | New Results on Wavelet Tree/Matrix Construction |
+| 9:10 | Sven Rahmann | From discrete to continuous - new algorithms for fused LASSO on graphs |
 | 9:55 | Thierry Lecroq | FM-index of Alignment with Gaps |
 | 10:40 | | Coffee Break |
 | 11:00 | Jouni Siren | Relative Data Structures |
@@ -90,7 +90,7 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 
 | Start | Speaker | |
 | ----- | ------- | ----- |
-| 9:00 | Sven Rahmann | From discrete to continuous - new algorithms for fused LASSO on graphs |
+| 9:00 | Johannes Fischer | New Results on Wavelet Tree/Matrix Construction |
 | 9:45 | Siavash Sheikhizadeh | PanTools: representation, storage and exploration of pan-genomic data |
 | 10:30 | | Coffee Break |
 | 11:00 | Anthony Cox | Data structures for population sequencing projects |
