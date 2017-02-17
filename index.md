@@ -127,6 +127,17 @@ distance, and g allowed gaps.
 #### New Results on Wavelet Tree/Matrix Construction
 **Johannes Fischer**
 
+The wavelet tree (Grossi et al. [SODA, 2003]) and wavelet matrix
+(Claude et al. [Inf. Syst., 47:15--32, 2015]) are compact indices for
+texts over an alphabet [0,sigma) that support rank,
+select and  access queries in O(log(sigma)) time.
+We first present new practical sequential and parallel algorithms for
+wavelet matrix construction.
+Their unifying characteristics is that they construct the wavelet
+matrix bottom-up, i.e., they compute the last level first.
+We also show that this bottom-up construction can easily be adapted to
+wavelet trees.
+
 #### FM-index of Alignment with Gaps
 **Thierry Lecroq**, Joong Chae Na, Hyunjoon Kim, Seunghwan Min,
 Heejin Park, Martine Leonard, Laurent Mouchard and Kunsoo Park
