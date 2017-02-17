@@ -8,7 +8,7 @@ The workshop DSB "Data Structures in Bioinformatics" (DSB) is an incubator of id
 
 ### Venue
 
-The workshop will take place at [CWI Amsterdam](https://www.cwi.nl) ([travel information](https://www.cwi.nl/how-reach-cwi-public-transport), [map](https://www.google.nl/maps/place/Centrum+Wiskunde+%26+Informatica/@52.3564651,4.9501773,17z/data=!3m1!4b1!4m5!3m4!1s0x47c60943849abc4f:0x7c49bc3f6dd03051!8m2!3d52.3564651!4d4.952366?hl=en)). There is a direct train connection from Amsterdam Central Station (5 min) and Schiphol airport (30-50 min).
+The workshop will take place at [CWI Amsterdam](https://www.cwi.nl) ([travel information](https://www.cwi.nl/how-reach-cwi-public-transport), [map](https://www.google.nl/maps/place/Centrum+Wiskunde+%26+Informatica/@52.3564651,4.9501773,17z/data=!3m1!4b1!4m5!3m4!1s0x47c60943849abc4f:0x7c49bc3f6dd03051!8m2!3d52.3564651!4d4.952366?hl=en)) in room L016. There is a direct train connection to Amsterdam Science Park from Amsterdam Central Station (5 min) and Schiphol airport (30-50 min).
 We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [The Manor](https://www.hampshirehotelmanoramsterdam.com/en) (2 min train ride).
 
 ---
@@ -44,7 +44,6 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 | Siavash Sheikhizadeh | Wageningen University |
 | Jouni Sirén | Wellcome Trust Sanger Institute |
 | Sandra Smit | Wageningen University |
-| Jens Stoye | Bielefeld University |
 | Tina Zekic | Bielefeld University |
 
 ### Organizing Committee
@@ -57,7 +56,7 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 
 ---
 
-### Preliminary Schedule
+### Workshop Schedule
 
 #### Monday, Feb 20 2017
 
@@ -93,7 +92,7 @@ We suggest the nearby hotels [CASA](http://hotelcasa.nl/) (5 min bus ride) and [
 | 9:00 | Johannes Fischer | New Results on Wavelet Tree/Matrix Construction |
 | 9:45 | Siavash Sheikhizadeh | PanTools: representation, storage and exploration of pan-genomic data |
 | 10:30 | | Coffee Break |
-| 11:00 | Anthony Cox | Data structures for population sequencing projects |
+| 11:00 | Anthony Cox | Putting the "p" in BWT: the positional Burrows-Wheeler transform and its applications |
 | 11:45 | Jasper Linthorst, Tom Mokveld | Practical algorithms for the creation and use of multi-genome reference graphs |
 | 12:30 | | Lunch |
 | 14:00 | Kamil Salikhov | ProPhyle – a memory efficient BWT-based metagenomic classifier |
@@ -250,7 +249,6 @@ construction and 14 GB instead of 75 GB for index querying. The resulting index 
 also more expressive as it can, for every queried k-mer, retrieve a list of all genomes
 in which the k-mer occurs.
 
-
 #### Practical algorithms for the creation and use of multi-genome reference graphs
 **Jasper Linthorst**, **Tom Mokveld**
 
@@ -287,10 +285,10 @@ uses a specific graph to account for these multiplicities and remains
 linear in complexity. It thus provides a way to compute approximate
 shortest superstring with multiplicities.
 
-#### Data structures for population sequencing projects
+#### Putting the "p" in BWT: the positional Burrows-Wheeler transform and its applications
 **Anthony Cox**
 
-
+Introduced by Richard Durbin in 2014, the positional Burrows-Wheeler transform (pBWT) is facilitating new ways to speed up some of the key computational tasks in population genetics, much as the "regular" Burrows-Wheeler transform has become a cornerstone of text search and compression algorithms in bioinformatics and elsewhere. Algorithms based on the pBWT are enabling computations such as phasing and IBD detection to scale to the cohorts of hundreds of thousands of individuals being genotyped by population-scale sequencing and microarray studies. I will discuss some of these algorithms and outline the relationship of the pBWT to the regular Burrows-Wheeler transform.
 
 #### PanTools: representation, storage and exploration of pan-genomic data
 **Siavash Sheikhizadeh**, M. Eric Schranz, Mehmet Akdel, Dick de Ridder and Sandra Smit
