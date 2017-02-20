@@ -1,5 +1,7 @@
 The workshop DSB "Data Structures in Bioinformatics" (DSB) is an incubator of ideas and facilitates exchanges as well as collaborations on topics related to data structures in bioinformatics. Speakers will present state of the art techniques and recent advances in this field. Also see the [program of DSB 2015/2016](https://didy.uni-bielefeld.de/DSB2015).
 
+*Please note that registration for DSB2017 has been closed.*
+
 ### Dates
 
 * Feb 20 2017: opening dinner
